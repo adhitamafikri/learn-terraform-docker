@@ -21,3 +21,7 @@ inspect:
 .PHONY: destroy
 destroy:
 	terraform destroy
+
+.PHONY: output
+output:
+	terraform output
