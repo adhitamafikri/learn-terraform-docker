@@ -14,7 +14,10 @@ init:
 apply:
 	terraform apply
 
-
 .PHONY: inspect
 inspect:
 	terraform show
+
+.PHONY: destroy
+destroy:
+	terraform destroy
